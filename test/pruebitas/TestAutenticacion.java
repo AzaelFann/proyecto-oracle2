@@ -23,4 +23,8 @@ public class TestAutenticacion {
         assertEquals(true, valor);
     }
     
+    @Test
+    public void probarSuma() throws Exception{
+        assertEquals(5, 1+4);
+    }
 }
